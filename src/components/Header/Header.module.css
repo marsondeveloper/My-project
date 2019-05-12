@@ -1,0 +1,11 @@
+
+
+
+.header {
+  grid-area: h;
+  background-color: darkorchid;
+  background-image: url('http://mobilkoy.ru/images/mobilkoy/2017/06/img1.jpg');
+}
+.header img {
+  width: 30px;
+}
