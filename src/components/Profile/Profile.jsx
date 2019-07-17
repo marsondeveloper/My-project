@@ -9,15 +9,15 @@ import MyPostsContainer from "./MyPosts/MyPostsContainer";
 
 
 
-class Profile extends React.Component {
-    render() {
+const Profile = (props) =>  {
+
         return (
             <div>
-                <ProfileInfo />
-                <MyPostsContainer store={this.props.store} />
+                <ProfileInfo profile={props.profile} />
+                <MyPostsContainer />
             </div>
         );
-    }
-}
+    };
+
 
 export default Profile;
