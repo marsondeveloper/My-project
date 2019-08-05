@@ -3,6 +3,7 @@ import profileReducer from "./profile-reduce";
 import dialogsReducer from "./dialogs-reduce";
 import sidebarReducer from "./sidebar-reduce";
 import usersReducer from "./users-reduce";
+import authReducer from "./auth-reduce";
 
 
 let redusers = combineReducers({
@@ -10,7 +11,8 @@ let redusers = combineReducers({
     profilePage: profileReducer,
     dialogsPage: dialogsReducer,
     sidebar: sidebarReducer,
-    usersPage: usersReducer
+    usersPage: usersReducer,
+    auth: authReducer
 });
 let store = createStore(redusers);
 
