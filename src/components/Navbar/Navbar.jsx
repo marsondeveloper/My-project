@@ -5,7 +5,7 @@ import Sidebar from "./Sidebar";
 
 
 const Navbar = (props) => {
-    debugger;
+
     /*let state = props.store.getState().sidebar;*/
 
        /* let sidebarFriends = state.friendsTop.map(f => <Sidebar name={f.name} id={f.id}/>)*/

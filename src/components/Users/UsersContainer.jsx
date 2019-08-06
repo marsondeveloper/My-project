@@ -17,19 +17,25 @@ import Preloader from '../common/Preloader/Preloader';
     componentDidMount() {
         this.props.toggleIsFetching(true);
 
-        axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${this.props.currentPage}&count=${this.props.pageSize}`).then(responce => {
+        axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${this.props.currentPage}&count=${this.props.pageSize}`, {
+            withCredentials: true
+        })
+            .then(response => {
             this.props.toggleIsFetching(false);
-            this.props.setUsers(responce.data.items);
-            this.props.setUsersTotalCount(responce.data.totalCount);
+            this.props.setUsers(response.data.items);
+            this.props.setUsersTotalCount(response.data.totalCount);
         })
     }
 
     onPageChanged = (pageNumber) => {
         this.props.setCurrentPage(pageNumber);
         this.props.toggleIsFetching(true);
-        axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${pageNumber}&count=${this.props.pageSize}`).then(responce => {
+        axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${pageNumber}&count=${this.props.pageSize}`, {
+            withCredentials: true
+        })
+            .then(response => {
             this.props.toggleIsFetching(false);
-            this.props.setUsers(responce.data.items);
+            this.props.setUsers(response.data.items);
         })
     };
 
