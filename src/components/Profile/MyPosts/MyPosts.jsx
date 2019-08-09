@@ -5,7 +5,7 @@ import Profile from "../../../App";
 
 
 const MyPosts = (props) => {
-    debugger;
+
     let postsElements = props.posts.map(p => <Post message={p.message} likesCounter={p.likesCount} key={p.id}/>)
     let newPostElement = React.createRef();
 
