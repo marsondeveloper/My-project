@@ -4,7 +4,7 @@ const instance = axios.create({
     withCredentials: true,
     baseURL:  `https://social-network.samuraijs.com/api/1.0/`,
     headers: {
-        "API-KEY": "cc6a776b-0281-4750-b50c-b1237be30b9c"
+        "API-KEY": "7da9bcd7-ddc8-4b16-ad7e-d3e4f0d40013"
     }
 });
 
@@ -14,7 +14,13 @@ const instance = axios.create({
         .then(response => {
             return response.data;
         });
-}
+},
+     follow(userId){
+         return instance.delete(`follow/${userId}`)
+     },
+     unfollow(userId){
+         return instance.post(`follow/${userId}`)
+     }
 
 };
 
@@ -26,7 +32,8 @@ export const profileAPI = {
             .then(response => {
                 return response.data;
             });
-    }
+    },
+
 
 };
 
