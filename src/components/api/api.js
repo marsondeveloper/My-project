@@ -15,15 +15,17 @@ export const usersAPI = {
                 return response.data;
             });
     },
-    getProfile(userId) {
 
-        return instance.get(`profile/` + userId);
-    },
+
     follow(userId) {
         return instance.post(`follow/${userId}`);
     },
     unfollow(userId) {
         return instance.delete(`follow/${userId}`);
+    },
+    getProfile(userId) {
+        console.warn('Obsolete method. Please profileAPI object');
+        return profileAPI.getProfile(userId);
     }
 };
 
@@ -31,6 +33,20 @@ export const authApi = {
     me(id, email, login) {
         return instance.get(`auth/me`);
     }
+};
+
+export const profileAPI = {
+
+    getProfile(userId) {
+        return instance.get(`profile/` + userId);
+    },
+    getStatus(userId) {
+        return instance.get(`profile/` + userId);
+    },
+    updateStatus(userId) {
+        return instance.put(`status`);
+    }
+
 };
 
 
