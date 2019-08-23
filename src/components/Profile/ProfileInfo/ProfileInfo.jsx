@@ -19,7 +19,7 @@ const ProfileInfo = (props) => {
             <div className={s.descriptionBlock}>
                 <img src={props.profile.photos.large} style={{width: 200, height: 200}}/>
                 <div>
-                    <ProfileStatus status={"Hello my friends"}/>
+                    <ProfileStatus status={props.status} updateStatus={props.updateStatus} />
                     {Object.keys(props.profile.contacts).map(el => (
                         <div key={el}>
                             {props.profile.contacts[el]}
