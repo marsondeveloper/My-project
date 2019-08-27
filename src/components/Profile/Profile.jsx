@@ -1,6 +1,5 @@
 import React from 'react';
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
-import {Redirect, Route} from "react-router-dom";
 import MyPostsContainer from "./MyPosts/MyPostsContainer";
 
 
