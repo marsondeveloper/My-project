@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d958e6ae-b293-488a-9baf-93b4bc85727f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/profile-reducer.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/app-reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/app-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth-reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profile-reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/sidebar-reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/sidebar-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
-    </list>
+    <list default="true" id="d958e6ae-b293-488a-9baf-93b4bc85727f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -62,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/redux/profile-reducer.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="715">
+              <caret line="50" column="3" lean-forward="true" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -160,37 +141,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="My-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -410,7 +361,7 @@
       <workItem from="1567546195833" duration="2312000" />
       <workItem from="1567590375070" duration="5635000" />
       <workItem from="1567680296886" duration="6931000" />
-      <workItem from="1567930819035" duration="2393000" />
+      <workItem from="1567930819035" duration="2483000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1563262612236</created>
@@ -503,19 +454,17 @@
       <option name="project" value="LOCAL" />
       <updated>1567594912153</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="89 Тесты, jest, tdd, тестируем reducer - React JS">
+      <created>1567935237190</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1567935237190</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="length_of_posts_should_be_incremented_(1) - 2019.09.05 at 14h 34m 59s.xml">
-      <configuration name="length of posts should be incremented (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="length_of_posts_should_be_incremented_(1) - 2019.09.05 at 14h 36m 26s.xml">
-      <configuration name="length of posts should be incremented (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="length_of_posts_should_be_incremented_(1) - 2019.09.05 at 14h 56m 12s.xml">
-      <configuration name="length of posts should be incremented (1)" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="length_of_posts_should_be_incremented_(1) - 2019.09.05 at 14h 57m 03s.xml">
       <configuration name="length of posts should be incremented (1)" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -537,9 +486,18 @@
     <history-entry file="after_deleting_length_of_messages_should_be_decrement - 2019.09.05 at 16h 36m 27s.xml">
       <configuration name="after deleting length of messages should be decrement" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="after_deleting_length_of_messages_should_be_decrement - 2019.09.08 at 12h 30m 53s.xml">
+      <configuration name="after deleting length of messages should be decrement" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="after_deleting_length_of_messages_should_be_decrement - 2019.09.08 at 12h 31m 08s.xml">
+      <configuration name="after deleting length of messages should be decrement" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="after_deleting_length_of_messages_should_be_decrement - 2019.09.08 at 12h 31m 27s.xml">
+      <configuration name="after deleting length of messages should be decrement" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="461010000" />
+    <option name="totallyTimeSpent" value="461100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1016,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/profile-reducer.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="715">
+          <caret line="50" column="3" lean-forward="true" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
         </state>
       </provider>
     </entry>
