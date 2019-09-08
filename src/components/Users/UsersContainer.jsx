@@ -4,7 +4,7 @@ import {
     follow, requestUsers,
     setCurrentPage,
     unfollow
-} from "../../redux/users-reduce";
+} from "../../redux/users-reducer";
 import Users from './Users';
 import Preloader from '../common/Preloader/Preloader';
 import {withAuthRedirect} from "../../hoc/withAuthRedirect";

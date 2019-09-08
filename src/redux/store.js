@@ -1,7 +1,7 @@
 
-import profileReducer from "./profile-reduce";
-import dialogsReducer from "./dialogs-reduce";
-import sidebarReducer from "./sidebar-reduce";
+import profileReducer from "./profile-reducer";
+import dialogsReducer from "./dialogs-reducer";
+import sidebarReducer from "./sidebar-reducer";
 
 
 

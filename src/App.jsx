@@ -12,7 +12,7 @@ import LoginPage from "./components/Login/Login";
 import {connect} from "react-redux";
 import {Route, withRouter} from "react-router-dom";
 import {compose} from "redux";
-import {initializeApp} from "./redux/app-reduce";
+import {initializeApp} from "./redux/app-reducer";
 import Preloader from "./components/common/Preloader/Preloader";
 
 
