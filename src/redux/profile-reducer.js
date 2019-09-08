@@ -64,33 +64,22 @@ export const setStatus = (status) => ({type: SET_STATUS, status});
 export const deletePost = (postId) => ({type: DELETE_POST, postId});
 
 
-export const getUserProfile = (userId) => {
-    return (dispatch) => {
-
-        usersApi.getProfile(userId).then(response => {
+export const getUserProfile = (userId) =>
+    async (dispatch) => {
+       let response = await usersApi.getProfile(userId)
             dispatch(setUserProfile(response.data));
-        })
-    }
 };
 
-export const getStatus = (userId) => {
-    return (dispatch) => {
-
-        profileApi.getStatus(userId).then(response => {
+export const getStatus = (userId) => async (dispatch) => {
+       let response = await profileApi.getStatus(userId)
             dispatch(setStatus(response.data));
-        })
-    }
 };
 
-export const updateStatus = (status) => {
-    return (dispatch) => {
-
-        profileApi.updateStatus(status).then(response => {
+export const updateStatus = (status) => async (dispatch) => {
+       let response = await profileApi.updateStatus(status)
             if (response.data.resultCode === 0) {
                 dispatch(setStatus(status));
             }
-        })
-    }
 };
 
 export default profileReducer;
