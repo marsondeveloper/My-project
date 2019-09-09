@@ -9,7 +9,6 @@ let initialState = {
     userId: 'null',
     email: 'null',
     login: 'null',
-    isFetching: false,
     isAuth: false
 
 };
@@ -54,8 +53,8 @@ export const login = (email, password, rememberMe) => async (dispatch) => {
             }
 };
 
-export const logout = (email, password, rememberMe) => async (dispatch) => {
-       let response = authAPI.logout();
+export const logout = () => async (dispatch) => {
+       let response = await authAPI.logout();
 
             if (response.data.resultCode === 0) {
                 dispatch(setAuthUserData(null, null, null, false))
