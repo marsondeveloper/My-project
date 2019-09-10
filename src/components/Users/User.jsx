@@ -2,47 +2,43 @@ import React from 'react';
 import s from "./users.module.css";
 import userPhoto from '../../assets/images/personal-user-illustration-@2x.png'
 import {NavLink} from "react-router-dom"
-import Paginator from "../common/Paginator/Paginator";
 
 
-let Users = ({currentPage, totalUsersCount, pageSize, onPageChanged, users, ...props}) => {
 
-    return <div>
+let User = ({user, followingInProgress, unfollow, follow }) => {
 
-        <Paginator currentPage={currentPage} onPageChanged={onPageChanged}
-                    totalUsersCount={totalUsersCount} pageSize={pageSize} />
+    return (
 
-        {
-            users.map(u => <div key={u.id}>
+       <div>
                   <span>
                       <div className={s.userPhoto}>
-                          <NavLink to={'/profile/' + u.id}>
-                          <img src={u.photos.small != null ? u.photos.small : userPhoto}/>
+                          <NavLink to={'/profile/' + user.id}>
+                          <img src={user.photos.small != null ? user.photos.small : userPhoto}/>
                           </NavLink>
                       </div>
                       <div>
-                          {u.followed
-                              ? <button disabled={props.followingInProgress.some(id => id === u.id)} onClick={() => {
-                                  props.unfollow(u.id);
+                          {user.followed
+
+                              ? <button disabled={followingInProgress.some(id => id === user.id)} onClick={() => {
+                                  unfollow(user.id);
                               }}>Unfollow</button>
-                              : <button disabled={props.followingInProgress.some(id => id === u.id)} onClick={() => {
-                                  props.follow(u.id);
+                              : <button disabled={followingInProgress.some(id => id === user.id)} onClick={() => {
+                                  follow(user.id);
                               }}>Follow</button>}
                       </div>
                   </span>
                 <span>
                      <span>
-                         <div>{u.name}</div>
-                         <div>{u.status}</div>
+                         <div>{user.name}</div>
+                         <div>{user.status}</div>
                      </span>
                       <span>
-                          <div>{"u.location.country"}</div>
-                          <div>{"u.location.city"}</div>
+                          <div>{"user.location.country"}</div>
+                          <div>{"user.location.city"}</div>
                       </span>
                   </span>
             </div>)
-        }
-    </div>
+
 };
 
-export default Users;
+export default User;
