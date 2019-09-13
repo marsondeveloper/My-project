@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d958e6ae-b293-488a-9baf-93b4bc85727f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.test.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,34 +24,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx">
+        <entry file="file://$PROJECT_DIR$/src/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="425">
+              <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Users/Users.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -75,7 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/redux/dialogs-reduce.js" />
         <option value="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" />
         <option value="$PROJECT_DIR$/src/redux/redux-form.jsx" />
         <option value="$PROJECT_DIR$/src/redux/redux-form.js" />
@@ -118,14 +92,15 @@
         <option value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" />
         <option value="$PROJECT_DIR$/src/redux/redux-store.js" />
         <option value="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" />
-        <option value="$PROJECT_DIR$/src/App.jsx" />
         <option value="$PROJECT_DIR$/src/index.jsx" />
         <option value="$PROJECT_DIR$/src/App.test.jsx" />
         <option value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" />
         <option value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
-        <option value="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" />
         <option value="$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx" />
         <option value="$PROJECT_DIR$/src/components/Users/Users.jsx" />
+        <option value="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" />
+        <option value="$PROJECT_DIR$/src/components/common/Paginator/Paginator.test.jsx" />
+        <option value="$PROJECT_DIR$/src/App.jsx" />
       </list>
     </option>
   </component>
@@ -153,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,46 +147,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="My-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="Paginator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="validators" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,7 +159,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/Paginator" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="C:\Users\Marson\Desktop\REACT\kabzda-kak-prosto\project\first-project\react-kabzda-01\node_modules\eslint" />
@@ -231,16 +171,16 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\My-project\src\components\common\Paginator" />
-      <recent name="C:\Users\Руля\Фильмы\My-project\src\components" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My-project\src\components\common\Paginator" />
       <recent name="D:\My-project\src\components\Profile\ProfileInfo" />
       <recent name="D:\My-project\src\components\Users" />
       <recent name="D:\My-project\src\redux" />
       <recent name="D:\My-project\src\components\common\FormsControls" />
-      <recent name="C:\Users\Руля\Фильмы\My-project\src\components\Header" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My-project\src\components\common\Paginator" />
+      <recent name="C:\Users\Руля\Фильмы\My-project\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -255,18 +195,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.ProfileStatus component.callback should be called">
-    <configuration name="ProfileStatus component.after creation &lt;span&gt; should be displayed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Paginator component test.if pages count is more then 10 button NEXT should be present">
+    <configuration name="Paginator component test.if pages count is more then 10 button NEXT should be present" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
+      <test-file value="$PROJECT_DIR$/src/components/common/Paginator/Paginator.test.jsx" />
       <test-names>
-        <test-name value="ProfileStatus component" />
-        <test-name value="after creation &lt;span&gt; should be displayed" />
+        <test-name value="Paginator component test" />
+        <test-name value="if pages count is more then 10 button NEXT should be present" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Paginator component test.pages count is 11 but should be showed only 10" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/common/Paginator/Paginator.test.jsx" />
+      <test-names>
+        <test-name value="Paginator component test" />
+        <test-name value="pages count is 11 but should be showed only 10" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -281,20 +235,6 @@
       <test-names>
         <test-name value="ProfileStatus component" />
         <test-name value="after creation &lt;span&gt; should contains correct status" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="ProfileStatus component.after creation &lt;span&gt; shouldn't be displayed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
-      <test-names>
-        <test-name value="ProfileStatus component" />
-        <test-name value="after creation &lt;span&gt; shouldn't be displayed" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -328,11 +268,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Paginator component test.if pages count is more then 10 button NEXT should be present" />
+        <item itemvalue="Jest.Paginator component test.pages count is 11 but should be showed only 10" />
         <item itemvalue="Jest.ProfileStatus component.callback should be called" />
         <item itemvalue="Jest.ProfileStatus component.input should be displayed in editMode instead of span" />
         <item itemvalue="Jest.ProfileStatus component.after creation &lt;span&gt; should contains correct status" />
-        <item itemvalue="Jest.ProfileStatus component.after creation &lt;span&gt; should be displayed" />
-        <item itemvalue="Jest.ProfileStatus component.after creation &lt;span&gt; shouldn't be displayed" />
       </list>
     </recent_temporary>
   </component>
@@ -450,7 +390,9 @@
       <workItem from="1568197422930" duration="9333000" />
       <workItem from="1568235310924" duration="6458000" />
       <workItem from="1568281112944" duration="5914000" />
-      <workItem from="1568326350335" duration="3838000" />
+      <workItem from="1568326350335" duration="4189000" />
+      <workItem from="1568364601018" duration="6674000" />
+      <workItem from="1568412008121" duration="2827000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1563262612236</created>
@@ -585,19 +527,17 @@
       <option name="project" value="LOCAL" />
       <updated>1568284285248</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="93 paginator, постраничный вывод">
+      <created>1568330572337</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1568330572337</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProfileStatus_component_after_creation__span__should_contains_correct_status - 2019.09.12 at 01h 30m 33s.xml">
-      <configuration name="ProfileStatus component.after creation &lt;span&gt; should contains correct status" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="ProfileStatus_component_after_creation__span__should_contains_correct_status - 2019.09.12 at 01h 30m 52s.xml">
-      <configuration name="ProfileStatus component.after creation &lt;span&gt; should contains correct status" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="ProfileStatus_component_after_creation__span__should_be_displayed - 2019.09.12 at 01h 34m 55s.xml">
-      <configuration name="ProfileStatus component.after creation &lt;span&gt; should be displayed" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
     <history-entry file="ProfileStatus_component_after_creation__span__should_contains_correct_status - 2019.09.12 at 01h 35m 23s.xml">
       <configuration name="ProfileStatus component.after creation &lt;span&gt; should contains correct status" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
@@ -619,9 +559,18 @@
     <history-entry file="ProfileStatus_component_callback_should_be_called - 2019.09.12 at 13h 07m 23s.xml">
       <configuration name="ProfileStatus component.callback should be called" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="Paginator_component_test_pages_count_is_11_but_should_be_showed_only_10 - 2019.09.13 at 13h 49m 50s.xml">
+      <configuration name="Paginator component test.pages count is 11 but should be showed only 10" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Paginator_component_test_if_pages_count_is_more_then_10_button_NEXT_should_be_present - 2019.09.13 at 14h 00m 43s.xml">
+      <configuration name="Paginator component test.if pages count is more then 10 button NEXT should be present" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Paginator_component_test_if_pages_count_is_more_then_10_button_NEXT_should_be_present - 2019.09.13 at 14h 01m 56s.xml">
+      <configuration name="Paginator component test.if pages count is more then 10 button NEXT should be present" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="519143000" />
+    <option name="totallyTimeSpent" value="528995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -646,7 +595,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39976957" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32949308" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32949308" />
       <window_info anchor="bottom" id="Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32603687" />
@@ -691,7 +640,8 @@
     <MESSAGE value="90" />
     <MESSAGE value="91 chrome extensions для react и redux" />
     <MESSAGE value="92 тестриуем компоненты, react-test-rendere" />
-    <option name="LAST_COMMIT_MESSAGE" value="92 тестриуем компоненты, react-test-rendere" />
+    <MESSAGE value="93 paginator, постраничный вывод" />
+    <option name="LAST_COMMIT_MESSAGE" value="93 paginator, постраничный вывод" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -711,13 +661,6 @@
     <SUITE FILE_PATH="coverage/My_project$renders_without_crashing.info" NAME="renders without crashing Coverage Results" MODIFIED="1567600866148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/react/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/redux/dialogs-reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1074,13 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -1091,32 +1027,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Users/Users.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="16" />
+        <state>
+          <caret selection-end-column="26" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Users/Users.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/common/Paginator/Paginator.test.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        <state relative-caret-position="289">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/common/Paginator/Paginator.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="4" column="89" lean-forward="true" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="89" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
