@@ -1,7 +1,7 @@
 import React from 'react';
 import s from "./users.module.css";
-import userPhoto from '../../assets/images/personal-user-illustration-@2x.png'
-import {NavLink} from "react-router-dom"
+import userPhoto from '../../assets/images/personal-user-illustration-@2x.png';
+import {NavLink} from "react-router-dom";
 
 
 
