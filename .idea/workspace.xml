@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d958e6ae-b293-488a-9baf-93b4bc85727f" name="Default Changelist" comment="93 paginator, постраничный вывод">
-      <change afterPath="$PROJECT_DIR$/src/hoc/withSuspense.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/User.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/validators/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/validators/validators.js" afterDir="false" />
-    </list>
+    <list default="true" id="d958e6ae-b293-488a-9baf-93b4bc85727f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -180,33 +168,6 @@
               <item name="My-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="My-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Profile" type="462c0819:PsiDirectoryNode" />
-              <item name="ProfileInfo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hoc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -446,7 +407,7 @@
       <workItem from="1569180525353" duration="5631000" />
       <workItem from="1569189156213" duration="3523000" />
       <workItem from="1569262672039" duration="9884000" />
-      <workItem from="1569344282827" duration="9111000" />
+      <workItem from="1569344282827" duration="9820000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1563262612236</created>
@@ -588,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568330572337</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="React.lazy и React.Suspense">
+      <created>1569359442034</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1569359442034</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -624,7 +592,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="557144000" />
+    <option name="totallyTimeSpent" value="557853000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,7 +605,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.487214" visible="true" weight="0.21166033" />
       <window_info id="Structure" order="1" sideWeight="0.5025729" side_tool="true" weight="0.2103929" />
@@ -695,7 +662,8 @@
     <MESSAGE value="91 chrome extensions для react и redux" />
     <MESSAGE value="92 тестриуем компоненты, react-test-rendere" />
     <MESSAGE value="93 paginator, постраничный вывод" />
-    <option name="LAST_COMMIT_MESSAGE" value="93 paginator, постраничный вывод" />
+    <MESSAGE value="React.lazy и React.Suspense" />
+    <option name="LAST_COMMIT_MESSAGE" value="React.lazy и React.Suspense" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
