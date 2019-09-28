@@ -30,7 +30,7 @@ const profileReducer = (state = initialState, action) => {
             };
             return {
                 ...state,
-                posts: [...state.posts, newPost]
+                posts: [...state.posts, newPost] //добавляем пост
             }
         }
         case SET_STATUS: {     //меняется только текст в текущий момент времени

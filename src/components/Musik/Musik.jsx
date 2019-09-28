@@ -4,7 +4,7 @@ import s from './Musik.module.css';
 const Musik = (props) => {
     return (
         <div>
-            Musik
+            <img src={"https://the-steppe.com/images/news/3460-WeeKyvVJ.jpeg"} />
         </div>
     )
 }

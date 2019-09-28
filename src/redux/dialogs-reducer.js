@@ -30,7 +30,7 @@ const dialogsReducer = (state = initialState, action) => {
             let body = action.newMessageBody;
             return {
                 ...state,
-                messages: [...state.messages, {id: 9, message: body}]      //добавляем новое сообщение в объект message
+                messages: [...state.messages, {id: 9, message: body}]      //добавляем новое сообщение в объект message в конец
             };
         default:
             return state;

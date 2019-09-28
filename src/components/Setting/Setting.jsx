@@ -4,7 +4,7 @@ import s from './Setting.module.css';
 const Setting = (props) => {
     return (
         <div>
-            Setting
+             <img src={"https://www.olympicvideogames.com/marioandsonic/us/img/characters/mario.png"} />
         </div>
     )
 }

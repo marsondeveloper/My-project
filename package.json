@@ -2,7 +2,6 @@
   "name": "react-kabzda-01",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marsondeveloper.github.io/demo-myProgect",
   "dependencies": {
     "axios": "^0.19.0",
     "classnames": "^2.2.6",
