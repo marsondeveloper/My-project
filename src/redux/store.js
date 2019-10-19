@@ -71,7 +71,7 @@ let store = {
 
       this._callSubcriber(this._state);//уведомили подписчика
       }
-    }
+    };
 
 
 

@@ -9,6 +9,7 @@ import {maxLengthCreator} from "../../utils/validators/validators";
 
 
 const Dialogs = (props) => {
+    debugger
     let state = props.dialogsPage;
 
     let dialogsElement = state.dialogs.map(d => <DialogItem name={d.name} key={d.id} id={d.id}/>);

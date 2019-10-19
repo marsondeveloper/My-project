@@ -7,6 +7,6 @@ const Musik = (props) => {
             <img src={"https://the-steppe.com/images/news/3460-WeeKyvVJ.jpeg"} />
         </div>
     )
-}
+};
 
 export default Musik;
