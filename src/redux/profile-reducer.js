@@ -1,4 +1,5 @@
 import {profileAPI as profileApi, usersAPI as usersApi} from "../components/api/api";
+import {stopSubmit} from "redux-form";
 
 const ADD_POST = 'ADD-POST';
 const SET_USER_PROFILE = 'SET_USER_PROFILE';
@@ -64,22 +65,34 @@ export const setStatus = (status) => ({type: SET_STATUS, status});
 export const deletePost = (postId) => ({type: DELETE_POST, postId});
 
 
+
 export const getUserProfile = (userId) =>
     async (dispatch) => {
-       let response = await usersApi.getProfile(userId)
+       let response = await usersApi.getProfile(userId);
             dispatch(setUserProfile(response.data));
 };
 
 export const getStatus = (userId) => async (dispatch) => {
-       let response = await profileApi.getStatus(userId)
+       let response = await profileApi.getStatus(userId);
             dispatch(setStatus(response.data));
 };
 
 export const updateStatus = (status) => async (dispatch) => {
-       let response = await profileApi.updateStatus(status)
+       let response = await profileApi.updateStatus(status);
             if (response.data.resultCode === 0) {
                 dispatch(setStatus(status));
             }
+};
+
+export const saveProfile = (profile) => async (dispatch, getState) => {
+    const userId = getState().auth.userId;
+    const response = await profileApi.saveProfile(profile);
+          if(response.data.resultCode === 0) {
+             dispatch(getUserProfile(userId))
+          }else{
+              dispatch(stopSubmit('edit-profile', {_error: response.data.messages[0]}));
+              return Promise.reject(response.data.messages[0])
+          }
 };
 
 export default profileReducer;

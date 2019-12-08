@@ -39,11 +39,7 @@ class App extends Component {
                 <div className='app-wrapper-content'>
                     <Route path='/dialogs' render={withSuspense(DialogsContainer)}/>
                     <Route path='/profile/:userId?' render={withSuspense(ProfileContainer)}/>
-                    <Route path='/users' render={() => {
-
-                       return <UsersContainer/>
-
-                    }}/>
+                    <Route path='/users' render={() => {return <UsersContainer/>}}/>
                     <Route path='/news' render={News}/>
                     <Route path='/musik' render={Musik}/>
                     <Route path='/setting' render={Setting}/>
