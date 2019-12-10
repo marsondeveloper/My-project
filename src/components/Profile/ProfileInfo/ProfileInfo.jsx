@@ -14,8 +14,8 @@ const ProfileInfo = ({profile, isOwner, status, updateStatus, saveProfile}) => {
         return <Preloader/>
     }
 
-    const onSubmit = async (formData) => {
-       await saveProfile(formData).then(() => {
+    const onSubmit =  (formData) => {
+        saveProfile(formData).then(() => {
             setEditMode(false);
         })
 
