@@ -3,9 +3,8 @@
 }
 
 
-.descriptionBlock img {
-    width: 100px;
-    height: 100px;
+.mainPhoto {
+    max-width: 200px;
 }
 
 .contact {
