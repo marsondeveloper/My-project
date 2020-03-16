@@ -6,7 +6,7 @@ import userPhoto from '../../../assets/images/personal-user-illustration-@2x.png
 import ProfileDataForm from "./ProfileDataForm";
 
 
-const ProfileInfo = ({profile, isOwner, status, updateStatus, saveProfile}) => {
+const ProfileInfo = ({profile, isOwner, status, updateStatus, savePhoto, saveProfile}) => {
 
     const [editMode, setEditMode] = useState(false);
 
@@ -21,11 +21,18 @@ const ProfileInfo = ({profile, isOwner, status, updateStatus, saveProfile}) => {
 
     };
 
+    const onMainPhotoSelected = (e) => {
+        if(e.target.files.length){
+           savePhoto(e.target.files[0])
+        }
+    };
+
     return (
         <div>
 
             <div className={s.descriptionBlock}>
                 <img src={profile.photos.large || userPhoto} style={{width: 200, height: 200}}/>
+                {isOwner && <input type={"file"} onChange={onMainPhotoSelected}/>}
 
                 {editMode ? <ProfileDataForm initialValues={profile} profile={profile} onSubmit={onSubmit}/> :
                     <ProfileData goToEditMode={() => {
